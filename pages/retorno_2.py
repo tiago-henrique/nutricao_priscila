@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(layout='wide')
-url = ("https://lmu.famerp.br/tiago/indicadores.csv")
+url = ("https://lmu.famerp.br/tiago/indicadores_2.csv")
 df = pd.read_csv(url)
 
 rt = df['data_v2'].count()
